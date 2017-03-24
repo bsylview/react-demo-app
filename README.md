@@ -38,5 +38,3 @@ $ npm run build
 |`npm run build`|Lint, test, and build the application to `./target`|
 |`npm run lint`|Lint `.js` files|
 |`npm run server`|Start express server @ `localhost:3000` to serve built artifacts from `./target` (must run `npm run build` first)|
-|`npm test`|Run unit tests with Karma and Jasmine|
-|`npm run test:watch`|Run unit tests with Karma and Jasmine; watch for changes to re-run tests|
