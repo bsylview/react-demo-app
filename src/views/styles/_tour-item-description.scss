@@ -1,0 +1,82 @@
+.tour-item-description{
+  float:right;
+  font-family:  Helvetica;
+  background-color: white;
+  padding: 1em 1em 0em;
+  font-size: 12px;
+  color: black;
+  letter-spacing: 0;
+  line-height: 20px;
+  height:100%;
+  width: 100%
+}
+
+.tour-description{
+  font-family:  Helvetica;
+  font-style: oblique;
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 21px;
+}
+.tour-title{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.item-title{
+  color: black;
+  font-family: Helvetica;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+.item-description{
+
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.custom-col{
+  // margin-top:-0.5em;
+  columns: 3;
+  margin-left:1em;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+
+@media screen and (max-width: 1024px) {
+	.tour-item-description {
+        // width: 30em;
+	}
+}
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	.tour-item-description {
+        // width: 30em;
+	}
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+  .tour-item-description {
+    width:100%;
+  }
+}
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+  .tour-item-description {
+    width:100%;
+  }
+
+}

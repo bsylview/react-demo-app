@@ -1,0 +1,53 @@
+.tour{
+  display:block;
+  width:100%;
+  padding-bottom: 2em;
+  padding-left:4em;
+}
+.tour-item-row{
+  height: 238px;
+}
+.danger{
+  color: #520000;
+}
+.tours-container{
+  background-color: #f2f2f2;
+  padding-top: 5em;
+  padding-bottom: 3em;
+}
+.filter-container{
+  padding-bottom: 1em;
+  text-align: center;
+
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+@media screen and (max-width: 1024px) {
+  .tour{
+    padding-left: 4em;
+  }
+}
+
+
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+  .tour{
+    padding-left: 0em;
+  }
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+  .tour{
+    padding-left: 0em;
+  }
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+  .tour{
+    padding-left: 0;
+  }
+}
